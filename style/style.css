@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    text-align: center;
+    margin-top: 10%;
+    padding: 16px;
+}
+
+.jogada{
+    height: 10vh;
+    width: 10vh;
+    color: rgb(255, 190, 71);
+    background-color: rgb(158, 103, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.oponente{
+   margin-top: 5px;
+    background-color: rgb(255, 190, 71);
+    border: none;
+    color: rgb(158, 103, 0);
+    height: 5vh;
+    width: 20vh;
+    cursor: pointer;
+}
