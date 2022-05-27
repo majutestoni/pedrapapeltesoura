@@ -1,6 +1,3 @@
-const pedra = document.getElementById('pedra');
-const palpel = document.getElementById('papel');
-const tesoura = document.getElementById('tesoura');
 const oponente = document.getElementById('oponente')
 const escolhas = document.getElementsByTagName('input');
 
@@ -31,9 +28,10 @@ function gerarOponente() {
                 }
             }
             event.target.value = jogadaOponente;
+            ganhador();
         }
     })
-    ganhador();
+
 }
 
 

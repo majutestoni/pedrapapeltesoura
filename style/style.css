@@ -4,27 +4,51 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 body{
     text-align: center;
     margin-top: 10%;
     padding: 16px;
+    background-color: rgba(158, 103, 0, 0.315);
+}
+
+h1{
+    margin-top: 5vh;
+    color: rgb(158, 103, 0);
+}
+
+h3{
+    color: rgb(95, 62, 0);
+}
+
+.container{
+    margin-top: 3vh;
+    height: 100%;
+    background-color: rgba(129, 84, 0, 0.377);
+    padding: 16px;
+    border-radius: 6px;
+}
+
+input{
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-top: 7px;
+    font-size: 23px;
 }
 
 .jogada{
-    height: 10vh;
-    width: 10vh;
+    height: 13vh;
+    width: 15vh;
     color: rgb(255, 190, 71);
     background-color: rgb(158, 103, 0);
-    border: none;
-    cursor: pointer;
+
 }
 
 .oponente{
-   margin-top: 5px;
     background-color: rgb(255, 190, 71);
-    border: none;
     color: rgb(158, 103, 0);
     height: 5vh;
     width: 20vh;
-    cursor: pointer;
+
 }
